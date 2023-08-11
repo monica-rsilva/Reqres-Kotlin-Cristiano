@@ -2,7 +2,7 @@ package br.senai.sp.jandira.retrofit_reqres
 
 import com.google.gson.annotations.SerializedName
 
-data class UserREsponse(
+data class UserResponse(
     @SerializedName("id") var id:Int? = 0,
     @SerializedName("email") var email:String? = "",
     @SerializedName("first_name") var first_name:String? = "",
